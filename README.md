@@ -1,3 +1,6 @@
+[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/a-simeshin/java-cbr-uuid-generator/blob/main/README.en.md)
+[![ru](https://img.shields.io/badge/lang-ru-blue.svg)](https://github.com/a-simeshin/java-cbr-uuid-generator/blob/main/README.md)
+
 # java-cbr-uuid-generator
 
 Реализация генератора UIDов на Java по требованиям ЦБ РФ в соответствии
@@ -10,7 +13,7 @@
 
 ```java
 public class Foo {
-    
+
     public void bar() {
         final String cbrUuid = CBRUUID.getCbrUUID();
     }
@@ -21,7 +24,7 @@ public class Foo {
 
 ```java
 public class Foo {
-    
+
     public void bar() {
         final List<String> cbrUuids = CBRUUID.getCbrUUID(10);
     }
@@ -34,7 +37,7 @@ public class Foo {
 
 ```java
 public class Foo {
-    
+
     public void bar() {
         CBRUUID.ETHERNET_MAC_ADDRESS = new EthernetAddress("00:C0:F0:3D:5B:7C");
         final String cbrUuid = CBRUUID.getCbrUUID();
